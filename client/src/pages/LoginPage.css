@@ -1,0 +1,57 @@
+.login-container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 30px;
+  background: linear-gradient(to bottom right, #ffe6f0, #e6faff);
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  font-family: 'Comic Sans MS', cursive;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Bikin isi container jadi rata tengah horizontal */
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+  color: #ff3399;
+}
+
+.login-form {  /* asumsikan form punya class ini */
+  width: 100%;    /* supaya input bisa 100% dari form */
+  max-width: 350px;  /* batas maksimal lebar form biar inputnya gak terlalu lebar */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 2px solid #ff99cc;
+  border-radius: 10px;
+  font-size: 16px;
+  box-sizing: border-box; /* supaya padding dan border masuk hitungan width */
+}
+
+.login-container button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #ffb3d9;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background-color: #ff99cc;
+}
+
+.login-container a {
+  color: #9900cc;
+  font-weight: bold;
+  text-decoration: none;
+}

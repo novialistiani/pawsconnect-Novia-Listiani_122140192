@@ -1,0 +1,68 @@
+/* HomePage.css */
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: none;
+}
+
+.home-container {
+  height: 100vh;
+  width: 100vw; /* supaya lebar penuh */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(to right, #ffe6f0, #e6ffff);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* tombol tetap seperti semula */
+h1 {
+  color: #ff66b2;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.button-group {
+  display: flex;
+  gap: 1rem;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button.adopt {
+  background-color: #ffb3c6;
+  color: #333;
+}
+
+button.adopt:hover {
+  background-color: #ff6680;
+  color: white;
+}
+
+button.community {
+  background-color: #c6f6d5;
+  color: #333;
+}
+
+button.community:hover {
+  background-color: #68d391;
+  color: white;
+}
