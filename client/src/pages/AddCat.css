@@ -1,0 +1,120 @@
+/* AddCat.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff; /* background putih polos */
+  margin: 0;
+  padding: 0;
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-cat-page {
+  background: #faf8ff; /* ungu sangat muda, hampir putih */
+  padding: 40px 50px;
+  border-radius: 15px;
+  box-shadow: 0 12px 25px rgba(123, 94, 255, 0.25);
+  max-width: 450px;
+  width: 100%;
+  animation: fadeIn 1s ease forwards;
+}
+
+.add-cat-page h1 {
+  text-align: center;
+  color: #7b5eff;
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 2rem;
+  letter-spacing: 1.5px;
+  user-select: none;
+}
+
+.add-cat-form label {
+  display: block;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #555;
+}
+
+.add-cat-form input[type="text"],
+.add-cat-form input[type="email"],
+.add-cat-form input[type="tel"],
+.add-cat-form select,
+.add-cat-form textarea,
+.add-cat-form input[type="file"] {
+  width: 100%;
+  padding: 12px 15px;
+  margin-top: 6px;
+  border-radius: 8px;
+  border: 1.8px solid #ddd;
+  font-size: 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+  outline: none;
+  resize: vertical;
+  background: #fff;
+}
+
+.add-cat-form textarea {
+  min-height: 80px;
+}
+
+.add-cat-form input[type="text"]:focus,
+.add-cat-form input[type="email"]:focus,
+.add-cat-form input[type="tel"]:focus,
+.add-cat-form select:focus,
+.add-cat-form textarea:focus,
+.add-cat-form input[type="file"]:focus {
+  border-color: #7b5eff;
+  box-shadow: 0 0 8px rgba(123, 94, 255, 0.4);
+  background: #fff;
+}
+
+.submit-btn {
+  background: linear-gradient(45deg, #7b5eff, #b399ff);
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  width: 100%;
+  padding: 14px 0;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  letter-spacing: 1.2px;
+  transition: background 0.4s ease, transform 0.2s ease;
+  user-select: none;
+  box-shadow: 0 8px 20px rgba(123, 94, 255, 0.3);
+}
+
+.submit-btn:hover {
+  background: linear-gradient(45deg, #a271ff, #d0b3ff);
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(165, 114, 255, 0.5);
+}
+
+.submit-btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 15px rgba(123, 94, 255, 0.4);
+}
+
+/* Animasi masuk */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

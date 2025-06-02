@@ -13,7 +13,7 @@ function LoginPage() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Simulasi login berhasil kalau kedua field tidak kosong
+   
     if (formData.email && formData.password) {
       navigate('/home');
     } else {

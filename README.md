@@ -26,7 +26,7 @@ PawsConnect adalah website yang menghubungkan penolong kucing, calon adopter, da
 ## ✨ Fitur Utama
 
 - CRUD Kucing (tambah, lihat, ubah, hapus)
-- CRUD User (Penolong, Adopter, Admin)
+- CRUD User (Penolong, Adopter)
 - Autentikasi login (dengan proteksi endpoint)
 - Sistem penyerahan kucing (ditampung user penolong sementara)
 - Riwayat adopsi & pelaporan

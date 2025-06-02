@@ -6,7 +6,7 @@ function HomePage() {
   const navigate = useNavigate();
 
   const handleAdoptClick = () => {
-    navigate('/adopsi'); // Ganti sesuai rute halaman adopsi kamu
+    navigate('/adopt'); 
   };
 
   return (
@@ -17,7 +17,7 @@ function HomePage() {
         <button className="adopt" onClick={handleAdoptClick}>
           Adopsi Sekarang 🐈‍⬛
         </button>
-        <button className="community">Gabung Komunitas 🐾</button>
+        
       </div>
     </div>
   );
